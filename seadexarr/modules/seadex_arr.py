@@ -1452,8 +1452,8 @@ class SeaDexArr:
             category=self.torrent_category,
             tags=self.torrent_tags,
         )
-        if result != "Ok.":
-            raise Exception("Failed to add torrent")
+        # if result != "Ok.":
+        #     raise Exception("Failed to add torrent")
 
         return "torrent_added"
 
